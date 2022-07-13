@@ -63,3 +63,35 @@ header{
     top: 20px;
     left: 209px;
 }
+
+.heart:hover{
+    color:red;
+    
+}
+
+.discount{
+    background-color: red;
+    padding: 1px;
+    display: block;
+    color: white;
+    position: absolute;
+    bottom: 100px;
+   }
+
+.sost{
+    background-color: green;
+    padding: 1px;
+    display: block;
+    color: white;
+    position: absolute;
+    bottom:100px;  
+    left:57px;
+}
+
+.sost--2{
+    left: 11px
+}
+
+.rosso{
+    color: red;
+}
