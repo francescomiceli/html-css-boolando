@@ -8,14 +8,23 @@ img{height: auto;}
 a{text-decoration: none; color: white;}
 hr{border:none; border-bottom: 1px solid #ddd}
 
+img{width: 100%;}
+
 /* Header */
 
 header{
     background-color: orange;
+    
     }
 .nav li{
     display: inline;
     margin: 10px;
+}
+
+#logo{
+    width: 115px;
+    position: relative;
+    left: -35px;
 }
 
 .cart>*{
@@ -25,8 +34,24 @@ header{
 .container{
     margin: 0 auto;
     width: 70%;
-    color: white;
+    color: #E7E7E7;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
+}
+
+.container_body{
+    width: 70%;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid red;
+}
+
+.card{
+    padding: 10px;
+    margin: 0 20px;
+    width: calc(100% /3);
+    flex-shrink: 0;
 }
