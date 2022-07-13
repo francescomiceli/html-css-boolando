@@ -43,7 +43,7 @@ header{
 
 .container_body{
     width: 70%;
-    margin:0 auto;
+    margin:40px auto;
     display: flex;
     flex-wrap: wrap;
     border: 1px solid red;
@@ -51,7 +51,15 @@ header{
 
 .card{
     padding: 10px;
-    margin: 0 20px;
-    width: calc(100% /3);
-    flex-shrink: 0;
+    margin: 10px 20px;
+    width: calc((100% /3) - 40px);
+    position: relative;
+}
+
+.heart{
+    position: absolute;
+    top: 0px;
+    background-color: white;
+    top: 20px;
+    left: 209px;
 }
